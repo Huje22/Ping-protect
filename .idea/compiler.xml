@@ -7,10 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="PingProtect" />
+        <module name="Ping-protect" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Ping-protect" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

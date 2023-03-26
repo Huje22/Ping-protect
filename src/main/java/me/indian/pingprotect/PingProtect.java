@@ -2,8 +2,7 @@ package me.indian.pingprotect;
 
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.plugin.PluginManager;
-import me.indian.pingprotect.listeners.DamageListener;
-import me.indian.pingprotect.others.Metrics;
+import me.indian.pingprotect.listener.DamageListener;
 
 public class PingProtect extends PluginBase {
 
@@ -21,11 +20,9 @@ public class PingProtect extends PluginBase {
     @Override
     public void onEnable() {
         saveDefaultConfig();
+        new Metrics(this, 18060);
 
-        Metrics metrics = new Metrics(this, 18060);
-
-        final PluginManager pluginManager = getServer().getPluginManager();
+        final PluginManager pluginManager = this.getServer().getPluginManager();
         pluginManager.registerEvents(new DamageListener(), this);
-
     }
 }

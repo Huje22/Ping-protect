@@ -1,4 +1,4 @@
-package me.indian.pingprotect.utils;
+package me.indian.pingprotect.util;
 
 import cn.nukkit.utils.TextFormat;
 

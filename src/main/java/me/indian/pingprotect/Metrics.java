@@ -1,4 +1,4 @@
-package me.indian.pingprotect.others;
+package me.indian.pingprotect;
 
 import cn.nukkit.Server;
 import cn.nukkit.plugin.Plugin;

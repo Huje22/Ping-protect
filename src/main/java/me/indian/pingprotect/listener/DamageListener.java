@@ -1,15 +1,14 @@
-package me.indian.pingprotect.listeners;
+package me.indian.pingprotect.listener;
 
 import cn.nukkit.Player;
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;
 import cn.nukkit.event.entity.EntityDamageByEntityEvent;
-import me.indian.pingprotect.utils.MessagesUtil;
+import me.indian.pingprotect.util.MessagesUtil;
 
 public class DamageListener implements Listener {
 
     private final Integer protectedPing = MessagesUtil.protectedPing;
-
 
     @SuppressWarnings("unused")
     @EventHandler
