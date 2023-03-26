@@ -1,0 +1,19 @@
+#----------------------------------------
+#               PingProtect
+#              By: IndianPL
+#             for colors use &
+#           Discord: https://discord.com/invite/aXDs6qtDCV
+#----------------------------
+#
+#
+#When this ping is exceeded players are protected
+protected-ping: 100
+#
+#
+#Messages
+need-op-permissions: "&cYou must be operator to use this command"
+command-usage: "&aUsage: &b/protectping [set | reload]"
+ping-seted: "&aPing has been seted to &6<ping>"
+player-get-damage: "&aThis player have so much of ping , you can't attack him"
+player-deals-damage: "&aYou can't attack him , you have so much of ping"
+players-ping-bad: "&aYou both have too much ping to fight"
