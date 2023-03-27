@@ -1,5 +1,6 @@
 main: me.indian.pingprotect.PingProtect
 name: PingProtect
 authors: [ IndianPL ]
+api: [ "1.0.14" ]
 description: PingProtect plugin
 version: '${project.version}'
